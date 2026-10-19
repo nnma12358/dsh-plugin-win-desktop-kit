@@ -1,0 +1,45 @@
+{
+  "name": "dsh-plugin-win-desktop-kit",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Windows/desktop utilities for DSH: PDF text extraction, fast directory sizing, multi-size ICO generation, and a native Harness launcher build.",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "files": [
+    "lib/index.js",
+    "cordis.patch.yml",
+    "icon.svg",
+    "locale",
+    "payload",
+    "README.md"
+  ],
+  "engines": {
+    "dsh": ">=0.1.1-0 <0.3.0"
+  },
+  "icon": "./icon.svg",
+  "author": "nnma12358 (https://github.com/nnma12358)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nnma12358/dsh-plugin-win-desktop-kit.git"
+  },
+  "homepage": "https://github.com/nnma12358/dsh-plugin-win-desktop-kit#readme",
+  "bugs": {
+    "url": "https://github.com/nnma12358/dsh-plugin-win-desktop-kit/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness"
+  ]
+}

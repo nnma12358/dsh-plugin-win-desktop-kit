@@ -1,0 +1,4 @@
+# dsh-plugin-win-desktop-kit profile registration.
+- insert:
+    - id: win-desktop-kit
+      name: 'dsh-plugin-win-desktop-kit'
